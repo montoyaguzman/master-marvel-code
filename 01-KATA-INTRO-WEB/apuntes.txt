@@ -1,0 +1,18 @@
+git config --global user.name "montoyitag"
+
+git config --global user.email "montoyaguzman7@gmail.com"
+
+git config --global --replace-all user.email "montoyaguzman7@gmail.com"
+
+COMPROBAR MI CONFIGURACION GLOBAL
+git config -l
+
+ESCRITURA DEL ARROBA
+altgr + Q ===> WINDOWS
+altgr + 2 ===> WINDOWS
+alt + 64 ===> WINDOWS
+opt + Q ===> OS
+
+
+mkdir master-marvel-code
+cd master-marvel-code
