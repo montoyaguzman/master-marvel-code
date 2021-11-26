@@ -16,3 +16,17 @@ opt + Q ===> OS
 
 mkdir master-marvel-code
 cd master-marvel-code
+
+
+ESTANDAR DE NOMBRADO
+main (master) = producto final
+develop = trabajando actualmente
+feature = una rama donde se trabaja algo en especifico
+hotfix = correciones
+
+feature/menu-nuevo
+hotfix/mensajes-wa
+feature/montoyitag
+
+HEAD
+Es un "puntero" a donde estamos localizados actualmente
