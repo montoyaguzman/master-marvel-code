@@ -1,7 +1,6 @@
+CONFIGURACION GLOBAL DE GIT
 git config --global user.name "montoyitag"
-
 git config --global user.email "montoyaguzman7@gmail.com"
-
 git config --global --replace-all user.email "montoyaguzman7@gmail.com"
 
 COMPROBAR MI CONFIGURACION GLOBAL
@@ -13,10 +12,8 @@ altgr + 2 ===> WINDOWS
 alt + 64 ===> WINDOWS
 opt + Q ===> OS
 
-
 mkdir master-marvel-code
 cd master-marvel-code
-
 
 ESTANDAR DE NOMBRADO
 main (master) = producto final
@@ -30,3 +27,33 @@ feature/montoyitag
 
 HEAD
 Es un "puntero" a donde estamos localizados actualmente
+
+GIT
+
+1. La conclusión de moverse en el tiempo en git.
+hotfix/pelicula3 => develop
+develop => master
+
+MERGE
+git checkout ramaDestino
+git merge ramaOrigen
+
+2. Crearse una cuenta en github.
+
+3. Crear un primer repositorio remoto en github.
+
+4. Generar su llave ssh 
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+
+git clone git@github.com:montoyaguzman/mi-primer-repo-b14.git // baja un repo completo
+
+touch archivo2.txt
+git add .
+git commit -m "mi mensaje"
+
+CONEXION CON EL REPO REMOTO
+git push origin main // subir mi codigo
+git pull origin main // bajar codigo
+
+5. Subir el repo del grupo master-marvel-code para que cada uno lo pueda clonar.
