@@ -1,0 +1,32 @@
+/* 
+  Selectores de etiqueta
+*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color:thistle;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+  Selectores de clase
+*/
+
+.white {
+   background-color:cornflowerblue;
+}
+
+/*
+  Selector por ID
+*/
+
+#yellow {
+  background-color: yellow; 
+}
