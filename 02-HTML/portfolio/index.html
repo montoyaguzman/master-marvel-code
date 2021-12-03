@@ -30,7 +30,7 @@
       height: 36px;
     }
 
-    .nav-element {
+    .navbar-element {
       display: inline;
       padding: 4px;
       margin-right: 10px;
@@ -85,7 +85,20 @@
       margin-top: 20px;
     }
 
+    .navbar-logo {
+      height: 56px;
+      padding: 4px 0px;
+    }
 
+    .navbar-link {
+      text-decoration: none;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-size: 13px;
+      color: #4b5ebe;
+    }
 
     .mb {
       margin-bottom: 20px;
@@ -108,8 +121,7 @@
     }
 
     .hability-card {
-      /* background-color: yellow */
-      /* background-color: red !important */
+      margin-right: 10px;
     }
 
     .habilty-icon {
@@ -123,7 +135,6 @@
     .hability-description {
       font-size: 14px;
       margin: 25px 0px;
-      margin-right: 10px;
     }
 
     .hability-tag {
@@ -149,17 +160,17 @@
   <div class="container">
     <!-- Inicia navbar -->
     <nav class="mb">
-      <img src="img/brand/logo.webp" alt="Logo de mi sitio web" height="64px" />
+      <img class="navbar-logo" src="img/brand/logo.webp" alt="Logo de mi sitio web" />
       <!-- 
       src: Origen de la imágen
       alt: Descripción de la imágine 
     -->
       <ul class="nav-link">
-        <li class="nav-element">
-          <a href="#" style="text-decoration: none;">GitHub</a>
+        <li class="navbar-element">
+          <a class="navbar-link" href="github.html">GitHub</a>
         </li>
-        <li class="nav-element">
-          <a href="#" style="text-decoration: none;">LinkedIn</a>
+        <li class="navbar-element">
+          <a class="navbar-link" href="https://www.linkedin.com/in/vmreyesal/">LinkedIn</a>
         </li>
       </ul>
       <!-- ul: lista desordenada (unorder list) -->
