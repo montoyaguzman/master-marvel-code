@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.png" type="image/png">
   <title>Inicio - Víctor M. Reyes</title>
   <style>
     body {
@@ -28,6 +29,46 @@
       display: inline;
       padding: 4px;
       margin-right: 10px;
+    }
+
+    .avatar-header {
+      width: 30%;
+      border-radius: 50%;
+      border: 5px solid #dee0e4;
+    }
+
+    .title-job {
+      text-transform: uppercase;
+      color: #8895bf;
+      font-weight: 100;
+      margin-bottom: 10px;
+    }
+
+    .title-header {
+      color: #333c66;
+      margin-bottom: 50px;
+      margin-top: 0px;
+    }
+
+    .title-header-name {
+      color: #4b5ebe;
+    }
+
+    .button-header {
+      background-color: #4b5ebe;
+      color: #ffffff;
+      text-decoration: none;
+      /* padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px; */
+      /* padding: 10px 20px 10px 20px; */
+      padding: 8px 20px;
+      border-radius: 4px;
+    }
+
+    .text-bold {
+      font-weight: 600;
     }
   </style>
 </head>
@@ -53,15 +94,15 @@
   <!-- Finaliza navbar -->
   <!-- Inicia header -->
   <header>
-    <img src="img/avatar.jpg" alt="Esto soy you" width="30%">
+    <img class="avatar-header" src="img/avatar.jpg" alt="Esto soy you" />
     <div style="display: inline; position: absolute; padding: 15px 50px 15px 50px;">
-      <h4>
+      <h4 class="title-job">
         React Developer
       </h4>
-      <h1>
-        ¡Hola soy <span>Víctor M. Reyes</span> y me gustaría ayudarte desarrollar tus ideas!
+      <h1 class="title-header">
+        ¡Hola soy <span class="title-header-name">Víctor M. Reyes</span> y me gustaría ayudarte desarrollar tus ideas!
       </h1>
-      <a href="https://github.com/oicrruf/">
+      <a class="button-header" href="https://github.com/oicrruf/">
         Ver más
       </a>
     </div>
@@ -73,17 +114,20 @@
   <!-- Inicia sección de descripción -->
   <section style="padding: 0px 80px 0px 80px;">
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi similique iusto et laudantium deleniti porro aut
-      numquam sequi facilis blanditiis.
+      My name is Ivan Votti. I’m a frontend developer with a full-stack background and a keen eye for good design. I
+      love to make complex things simple and joy to use. Currently, I focus on building single-page applications with
+      <span class="text-bold">React</span> and <span class="text-bold">Ember</span>.
     </p>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptates temporibus magnam architecto quae!
-      Adipisci
-      perspiciatis magni expedita soluta. Tenetur error reprehenderit deleniti pariatur saepe. Distinctio et, veritatis
-      totam recusandae tempora unde doloremque quia nostrum.
+      Over the past <strong>8 years</strong>, I’ve gained experience across most aspects of the
+      application lifecycle, including
+      frontend, backend, and dev-ops. This allows me to take full ownership of a project from design to implementation
+      and deployment.
     </p>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque et officiis officia totam voluptatum beatae.
+      I started as a backend developer on <span class="text-bold">Python/Django</span> stack. At some point, I found out
+      that I enjoy contributing to
+      user experience and design. Since then, I’ve changed my focus to frontend development.
     </p>
   </section>
   <!-- Finaliza sección de descripción -->
