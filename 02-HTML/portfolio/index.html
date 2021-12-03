@@ -51,7 +51,7 @@
 
     .title-header {
       color: #333c66;
-      margin-bottom: 50px;
+      margin-bottom: 45px;
       margin-top: 0px;
     }
 
@@ -80,13 +80,75 @@
       width: 80%;
       margin: auto;
     }
+
+    .mt {
+      margin-top: 20px;
+    }
+
+
+
+    .mb {
+      margin-bottom: 20px;
+    }
+
+    .mt-50 {
+      margin-bottom: 50px;
+    }
+
+    .mb-50 {
+      margin-bottom: 50px;
+    }
+
+    .image-full-width {
+      width: 100%;
+    }
+
+    .habilities {
+      display: inline-flex
+    }
+
+    .hability-card {
+      /* background-color: yellow */
+      /* background-color: red !important */
+    }
+
+    .habilty-icon {
+      height: 18px;
+    }
+
+    .hability-title {
+      display: inline;
+    }
+
+    .hability-description {
+      font-size: 14px;
+      margin: 25px 0px;
+      margin-right: 10px;
+    }
+
+    .hability-tag {
+      background-color: rgba(51, 61, 102, .07);
+      color: rgba(51, 61, 102, .8);
+      font-size: 12px;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    .hability-dot {
+      color: #5b687b;
+    }
+
+    .hability-experience {
+      font-size: 12px;
+
+    }
   </style>
 </head>
 
 <body>
   <div class="container">
     <!-- Inicia navbar -->
-    <nav>
+    <nav class="mb">
       <img src="img/brand/logo.webp" alt="Logo de mi sitio web" height="64px" />
       <!-- 
       src: Origen de la imágen
@@ -105,8 +167,7 @@
   </nav>
   <!-- Finaliza navbar -->
   <!-- Inicia header -->
-  <header class="container">
-
+  <header class="container mb">
     <img class="avatar-header" src="img/avatar.jpg" alt="Esto soy you" />
     <div style="display: inline; position: absolute; padding: 15px 50px 15px 50px;">
       <h4 class="title-job">
@@ -125,7 +186,7 @@
   </header>
   <!-- Finaliza header -->
   <!-- Inicia sección de descripción -->
-  <section class="container">
+  <section class="container mt-50 mb-50">
     <p>
       My name is Ivan Votti. I’m a frontend developer with a full-stack background and a keen eye for good design. I
       love to make complex things simple and joy to use. Currently, I focus on building single-page applications with
@@ -148,110 +209,104 @@
   <section style="background-color: #f9f9fa; padding: 30px 0px 30px 0px;">
     <div class="container">
       <h2>Habilidades</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dicta, possimus deleniti quasi labore nostrum a
+      <p class="mb-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dicta, possimus deleniti quasi
+        labore
+        nostrum a
         numquam repellat rerum quia!</p>
-      <div style="display: inline-flex;">
-        <div style="display: inline">
-          <!-- Inicia tarjeta de lenguaje de programación -->
-          <div style="display: inline;">
-            <!-- Inicia bloque superior -->
-            <div style="width: 60%; margin: auto; padding: 15px 0px 15px 0px">
-              <div>
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
-                  alt="C++" height="40px">
-                <h4>Javascript</h4>
-                <span>* 6 años</span>
-              </div>
-              <!-- Finaliza bloque superior -->
-              <!-- Inicia bloque medio -->
-              <div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, vitae dolor aliquam
-                  accusantium
-                  magni
-                  dolore aperiam atque earum suscipit eligendi!</p>
-              </div>
-              <!-- Finaliza bloque medio -->
-              <!-- Inicia bloque bajo -->
-              <div>
-                <span>Ember</span>
-                <span>React</span>
-                <span>Gatsby</span>
-              </div>
+      <div class="habilities">
+        <!-- Inicia tarjeta de lenguaje de programación -->
+        <div class="hability-card">
+          <!-- Inicia bloque superior -->
+          <div>
+            <div>
+              <img class="habilty-icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
+                alt="C++">
+              <h4 class="hability-title">Javascript</h4>
+              <span class="hability-dot">·</span>
+              <span class="hability-experience"> 6 años</span>
             </div>
-            <!-- Finaliza bloque bajo -->
-          </div>
-          <!-- Finaliza tarjeta de lenguaje de programación -->
-          <div style="display: inline">
-            <div style="width: 60%; margin: auto; padding: 15px 0px 15px 0px">
-              <div>
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
-                  alt="C++" height="40px">
-                <h4>Javascript</h4>
-                <span>* 6 años</span>
-              </div>
-              <div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, vitae dolor aliquam
-                  accusantium
-                  magni
-                  dolore aperiam atque earum suscipit eligendi!</p>
-              </div>
-              <div>
-                <span>Ember</span>
-                <span>React</span>
-                <span>Gatsby</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div style="display: inline">
-          <div style="display: inline">
-            <div style="width: 60%; margin: auto; padding: 15px 0px 15px 0px">
-              <div>
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
-                  alt="C++" height="40px">
-                <h4>Javascript</h4>
-                <span>* 6 años</span>
-              </div>
-              <div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, vitae dolor aliquam
-                  accusantium
-                  magni
-                  dolore aperiam atque earum suscipit eligendi!</p>
-              </div>
-              <div>
-                <span>Ember</span>
-                <span>React</span>
-                <span>Gatsby</span>
-              </div>
-            </div>
-          </div>
-          <div style="display: inline">
-            <div style="width: 60%; margin: auto; padding: 15px 0px 15px 0px">
-              <div>
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
-                  alt="C++" height="40px">
-                <h4>Javascript</h4>
-                <span>* 6 años</span>
-              </div>
-              <div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, vitae dolor aliquam
-                  accusantium
-                  magni
-                  dolore aperiam atque earum suscipit eligendi!</p>
-              </div>
-              <div>
-                <span>Ember</span>
-                <span>React</span>
-                <span>Gatsby</span>
-              </div>
-            </div>
-          </div>
-        </div>
+            <!-- Finaliza bloque superior -->
+            <!-- Inicia bloque medio -->
 
+            <p class="hability-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, vitae
+              dolor aliquam
+              accusantium
+              magni
+              dolore aperiam atque earum suscipit eligendi!</p>
+            <!-- Finaliza bloque medio -->
+            <!-- Inicia bloque bajo -->
+            <div>
+              <span class="hability-tag">Ember</span>
+              <span class="hability-tag">React</span>
+              <span class="hability-tag">Gatsby</span>
+            </div>
+          </div>
+          <!-- Finaliza bloque bajo -->
+        </div>
+        <!-- Finaliza tarjeta de lenguaje de programación -->
+        <!-- Inicia tarjeta de lenguaje de programación -->
+        <div class="hability-card">
+          <!-- Inicia bloque superior -->
+          <div>
+            <div>
+              <img class="habilty-icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
+                alt="C++">
+              <h4 class="hability-title">Javascript</h4>
+              <span class="hability-dot">·</span>
+              <span class="hability-experience"> 6 años</span>
+            </div>
+            <!-- Finaliza bloque superior -->
+            <!-- Inicia bloque medio -->
+
+            <p class="hability-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, vitae
+              dolor aliquam
+              accusantium
+              magni
+              dolore aperiam atque earum suscipit eligendi!</p>
+            <!-- Finaliza bloque medio -->
+            <!-- Inicia bloque bajo -->
+            <div>
+              <span class="hability-tag">Ember</span>
+              <span class="hability-tag">React</span>
+              <span class="hability-tag">Gatsby</span>
+            </div>
+          </div>
+          <!-- Finaliza bloque bajo -->
+        </div>
+        <!-- Finaliza tarjeta de lenguaje de programación -->
+        <!-- Inicia tarjeta de lenguaje de programación -->
+        <div class="hability-card">
+          <!-- Inicia bloque superior -->
+          <div>
+            <div>
+              <img class="habilty-icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
+                alt="C++">
+              <h4 class="hability-title">Javascript</h4>
+              <span class="hability-dot">·</span>
+              <span class="hability-experience"> 6 años</span>
+            </div>
+            <!-- Finaliza bloque superior -->
+            <!-- Inicia bloque medio -->
+
+            <p class="hability-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, vitae
+              dolor aliquam
+              accusantium
+              magni
+              dolore aperiam atque earum suscipit eligendi!</p>
+            <!-- Finaliza bloque medio -->
+            <!-- Inicia bloque bajo -->
+            <div>
+              <span class="hability-tag">Ember</span>
+              <span class="hability-tag">React</span>
+              <span class="hability-tag">Gatsby</span>
+            </div>
+          </div>
+          <!-- Finaliza bloque bajo -->
+        </div>
+        <!-- Finaliza tarjeta de lenguaje de programación -->
       </div>
     </div>
   </section>
@@ -322,10 +377,8 @@
   <!-- Finaliza sección de algunos de mi proyectos -->
   <!-- Inicia sección de imágen -->
   <section>
-    <div class="container">
-      <img src="https://ivanvotti.com/static/cfe0191b18ad06cd620f3e1b65c34964/8b3f0/working.webp"
-        alt="Imagen decorativa" width="100%">
-    </div>
+    <img class="image-full-width" src="https://ivanvotti.com/static/cfe0191b18ad06cd620f3e1b65c34964/8b3f0/working.webp"
+      alt="Imagen decorativa">
   </section>
   <!-- Finaliza sección de imágen -->
   <!-- Inicia sección de formulario -->
