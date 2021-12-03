@@ -30,3 +30,30 @@ h1, h2, h3, h4, h5, h6, p, span {
 #yellow {
   background-color: yellow; 
 }
+
+/*
+  Navbar
+*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__logo {
+  width: 200px;
+}
+
+.navbar__links {
+  width: 400px;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links li {
+  margin: 0 10px;
+  list-style-type: none;
+}
