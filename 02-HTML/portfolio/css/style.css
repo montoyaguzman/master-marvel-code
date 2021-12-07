@@ -43,7 +43,7 @@ h2 {
   color: #4b5ebe;
 }
 
-.button-header {
+.button-main {
   background-color: #4b5ebe;
   color: #ffffff;
   text-decoration: none;
@@ -200,6 +200,38 @@ h2 {
   filter: grayscale(100%);
 }
 
+#contact-form * {
+  margin: auto;
+  display: block;
+  width: 50%;
+  margin-bottom: 60px;
+}
+
+#contact-form div.two-inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 0px;
+}
+#contact-form div.two-inputs input {
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+#contact-form textarea,
+#contact-form div input {
+  background-color: #edf2f7;
+  border: unset;
+  padding: 10px;
+  border-radius: 4px;
+}
+#contact-form textarea {
+  margin-bottom: 10px;
+}
+
+#contact-form div button {
+  float: left;
+  border: unset;
+}
 .-bg__salmon {
   background-color: #ffe5d6;
 }
