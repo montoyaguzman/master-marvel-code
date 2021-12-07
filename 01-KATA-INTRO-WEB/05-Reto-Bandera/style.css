@@ -1,0 +1,56 @@
+.bandera {
+  height: 200px;
+  width: 350px;
+  background-color: darkblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.superior {
+  height: 75px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.superior-izq {
+  height: 60px;
+  width: 85px;
+  background-color: red;
+  border-right: 15px solid white;
+  border-bottom: 15px solid white;
+}
+
+.superior-der {
+  height: 60px;
+  width: 185px;
+  background-color: red;
+  border-left: 15px solid white;
+  border-bottom: 15px solid white;
+}
+
+.inferior {
+  height: 75px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inferior-izq {
+  height: 60px;
+  width: 85px;
+  background-color: red;
+  border-right: 15px solid white;
+  border-top: 15px solid white;
+}
+
+.inferior-der {
+  height: 60px;
+  width: 185px;
+  background-color: red;
+  border-left: 15px solid white;
+  border-top: 15px solid white;
+}
