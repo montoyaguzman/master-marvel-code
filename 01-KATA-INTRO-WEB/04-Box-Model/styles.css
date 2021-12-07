@@ -1,0 +1,31 @@
+div {
+  border: 1px black solid;
+  height: 50px;
+  width: 200px;
+  /* 1ra Forma todas las direcciones */
+  padding: 10px;
+  /* 2da Forma arriba/abajo izquierda/derecha */
+  padding: 5px 20px;
+  /* 3ra Forma: manecillas del reloj */
+  margin: 50px 0px 25px 200px;
+  /* 4ta Forma: un solo lado específico */
+  border-bottom: 5px dotted blue;
+  /* EXTRA: ¿Cómo redondear bordes? */
+  border-radius: 30px;
+}
+
+section {
+  border: 1px black solid;
+  height: 50px;
+  width: 200px;
+  /* 1ra Forma todas las direcciones */
+  padding: 10px;
+  /* 2da Forma arriba/abajo izquierda/derecha */
+  padding: 5px 20px;
+  /* 3ra Forma: manecillas del reloj */
+  margin: 50px 0px 25px 200px;
+  /* 4ta Forma: un solo lado específico */
+  border-bottom: 5px dotted blue;
+  /* EXTRA: ¿Cómo redondear bordes? */
+  border-radius: 30px;
+}
