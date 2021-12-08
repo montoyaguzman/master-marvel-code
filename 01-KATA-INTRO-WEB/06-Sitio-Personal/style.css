@@ -7,7 +7,6 @@
 
 /* Secciones */
 .navbar {
-  background-color: mediumorchid;
   height: 80px;
   width: 1152px;
   display: flex;
@@ -24,7 +23,16 @@
 }
 
 .navbar__links {
-  background-color: mediumvioletred;
   height: 100%;
-  width: 100px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__links a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: #4b5ebe;
+  font-weight: 500;
 }
