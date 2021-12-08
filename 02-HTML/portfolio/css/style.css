@@ -39,6 +39,12 @@ h2 {
   margin-top: 0px;
 }
 
+.header-detail {
+  display: inline;
+  position: absolute;
+  padding: 15px 50px 15px 50px;
+}
+
 .title-header-name {
   color: #4b5ebe;
 }
@@ -89,13 +95,23 @@ h2 {
 }
 
 .mt-50 {
-  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
 }
 
 .mb-50 {
   margin-bottom: 50px;
 }
 
+.header-background {
+  background-image: url("../img/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
 .image-full-width {
   width: 100%;
 }
@@ -198,7 +214,17 @@ h2 {
 
 .icon-list {
   filter: grayscale(100%);
+  transition: all 0.3s;
 }
+
+.icon-list:hover {
+  filter: grayscale(0%);
+}
+
+/* .icon-list li:first-child,
+.icon-list li:last-child {
+  font-size: 60px;
+} */
 
 #contact-form {
   margin: auto;
@@ -207,13 +233,13 @@ h2 {
   margin-bottom: 30px;
 }
 
-#contact-form div.two-inputs {
+#contact-form div.from {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
 }
 
-#contact-form div.two-inputs input {
+#contact-form div input {
   width: 100%;
   margin-bottom: 10px;
 }
@@ -258,4 +284,9 @@ h2 {
 
 .-bg__blue-light {
   background-color: #edf2f7;
+}
+
+.w-50 {
+  width: 50%;
+  margin: auto;
 }
