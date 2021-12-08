@@ -11,6 +11,10 @@
   background: #728197;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   color: #5b687b;
   font-family: "Inter", sans-serif;
