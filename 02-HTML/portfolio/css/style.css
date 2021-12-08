@@ -200,20 +200,21 @@ h2 {
   filter: grayscale(100%);
 }
 
-#contact-form * {
+#contact-form {
   margin: auto;
   display: block;
-  width: 50%;
-  margin-bottom: 60px;
+  width: 60%;
+  margin-bottom: 30px;
 }
 
 #contact-form div.two-inputs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 0px;
+  grid-gap: 2rem;
 }
+
 #contact-form div.two-inputs input {
-  width: 90%;
+  width: 100%;
   margin-bottom: 10px;
 }
 
@@ -224,14 +225,17 @@ h2 {
   padding: 10px;
   border-radius: 4px;
 }
-#contact-form textarea {
-  margin-bottom: 10px;
+
+#contact-form div textarea {
+  width: 100%;
 }
 
 #contact-form div button {
   float: left;
   border: unset;
+  margin-top: 10px;
 }
+
 .-bg__salmon {
   background-color: #ffe5d6;
 }
