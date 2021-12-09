@@ -98,4 +98,13 @@
   flex-direction: column;
 }
 
-.hero__text button {}
+.hero__text button {
+  background-color: #4b5ebe;
+  height: 3em;
+  width: 175px;
+  color: white;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  border: 0px solid white;
+  border-radius: 5px;
+}
