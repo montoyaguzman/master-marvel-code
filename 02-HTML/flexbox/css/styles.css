@@ -3,11 +3,23 @@
   --color-blue: #33b8ff;
 }
 
+.margin-bottom {
+  margin-bottom: 100px;
+}
+
 .container {
   width: 100%;
   height: 20vh; /* vh = viewport height*/
   display: flex;
   flex-direction: row; /* column */
+  justify-content: space-around;
+  /*
+  flex-start
+  flex-end
+  center
+  space-between
+  space-around
+  */
 }
 
 .container-two {
@@ -23,6 +35,13 @@
   height: 20vh; /* vh = viewport height*/
   display: flex;
   flex-flow: row wrap; /* flex-direction + flex-wrap */
+}
+
+.container-four {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-flow: column;
 }
 
 .item {
