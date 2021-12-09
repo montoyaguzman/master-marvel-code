@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  background: red;
+  color: white;
+  padding: 10px;
+  /* margin: 0 0 10px 0; */
+  margin-bottom: 10px;
+}
+
+.banner {
+  width: 10%;
+}
+
+.menu {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.shopping-car {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dashboard {
+  display: flex;
+}
+
+.card {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
