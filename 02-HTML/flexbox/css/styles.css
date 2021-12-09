@@ -47,11 +47,24 @@
   align-items: center; /* centra sobe el eje secundario */
 }
 
+.container-five {
+  width: 100%;
+  display: flex;
+}
+
 .item {
   width: 100px;
   height: 100px;
   color: white;
   font-weight: 300;
+}
+
+.my-item {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  padding: 14px;
+  border: solid 20px black;
 }
 
 .red {
