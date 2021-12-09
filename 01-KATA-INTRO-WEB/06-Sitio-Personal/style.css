@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-/* Secciones */
+/* Navbar */
 .navbar {
   height: 80px;
   width: 1152px;
@@ -35,4 +35,24 @@
   text-decoration: none;
   color: #4b5ebe;
   font-weight: 500;
+}
+
+/* Hero */
+
+.hero {
+  height: 450px;
+  width: 1200px;
+  display: flex;
+}
+
+.hero__photo {
+  background-color: darkgreen;
+  width: 40%;
+  height: 100%;
+}
+
+.hero__text {
+  background-color:darkorchid;
+  width: 60%;
+  height: 100%;
 }
