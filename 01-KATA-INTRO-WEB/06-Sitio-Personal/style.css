@@ -5,6 +5,11 @@
   align-items: center;
 }
 
+.text-space {
+  margin-bottom: 6px;
+  padding-bottom: 10px;
+}
+
 /* Navbar */
 .navbar {
   height: 80px;
@@ -60,7 +65,37 @@
 }
 
 .hero__text {
-  background-color:darkorchid;
   width: 60%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
 }
+
+.hero__text h2 {
+  color: #6e7bb9;
+  margin-bottom: 12px;
+}
+
+.hero__text h1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #4b5ebe;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.title-dark {
+  color: #192664;
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__text button {}
