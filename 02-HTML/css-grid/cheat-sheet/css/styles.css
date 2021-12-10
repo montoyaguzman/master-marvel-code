@@ -55,13 +55,53 @@ body {
 .grid-four {
     background-color: pink;
     display: grid;
-    grid-template-columns: 20% 30% min-content;
+    grid-template-columns: 20% 30% max-content; /* min-content; */
     grid-template-rows: 100px max-content;
     height: 30vh;
     
 }
 
 .grid-four > div {
+    background-color: var(--second-color);
+    color: white;
+}
+
+.grid-five {
+    background-color: pink;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    grid-template-rows: 100px max-content;
+    height: 30vh;
+    
+}
+
+.grid-five > div {
+    background-color: var(--second-color);
+    color: white;
+}
+  
+.grid-six {
+    background-color: pink;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-rows: 100px max-content;
+    height: 30vh;
+    
+}
+
+.grid-six > div {
+    background-color: var(--second-color);
+    color: white;
+}
+
+.grid-seven {
+    background-color: pink;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    
+}
+
+.grid-seven > div {
     background-color: var(--second-color);
     color: white;
 }
