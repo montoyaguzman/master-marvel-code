@@ -12,9 +12,56 @@ body {
 
 .grid {
     background-color: pink;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: auto 70px auto;
 }
 
 .grid > div {
+    background-color: var(--second-color);
+    color: white;
+}
+
+.grid-two {
+    background-color: pink;
+    display: grid;
+    grid-template-columns: 4fr 2fr 2fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    
+}
+
+.grid-two > div {
+    background-color: var(--second-color);
+    color: white;
+}
+
+.grid-three {
+    background-color: pink;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    justify-items: center;
+    align-items: center;
+    height: 30vh;
+    
+}
+
+.grid-three > div {
+    background-color: var(--second-color);
+    color: white;
+}
+  
+
+.grid-four {
+    background-color: pink;
+    display: grid;
+    grid-template-columns: 20% 30% min-content;
+    grid-template-rows: 100px max-content;
+    height: 30vh;
+    
+}
+
+.grid-four > div {
     background-color: var(--second-color);
     color: white;
 }
