@@ -12,14 +12,63 @@ html, body {
   justify-content: space-between;
 }
 
+/* Izquierda de la Bandera */
 .columna-izq {
-  background-color: darkgoldenrod;
   height: 100%;
   width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+.izq-arriba {
+  background-color: white;
+  height: 40%;
+  width: 100%;
+}
+
+.izq-abajo {
+  background-color: white;
+  height: 45%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.rojo-izq {
+  background-color: red;
+  height: 85%;
+  width: 90%;
+}
+
+/* Derecha de la Bandera */
 .columna-der {
-  background-color: darkmagenta;
   height: 100%;
   width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.der-arriba {
+  background-color: white;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.der-abajo {
+  background-color: white;
+  height: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.rojo-der {
+  background-color: red;
+  height: 85%;
+  width: 93.5%;
 }
