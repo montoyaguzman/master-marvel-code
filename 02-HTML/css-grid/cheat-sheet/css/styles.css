@@ -98,11 +98,38 @@ body {
     background-color: pink;
     display: grid;
     grid-template-columns: 20% 20% 20%;
-    
+    grid-template-rows: 30px 30px;
 }
 
 .grid-seven > div {
     background-color: var(--second-color);
     color: white;
 }
-  
+
+.grid-seven > div.element1 {
+    background-color: teal;
+    justify-self: end;
+    align-self: start;
+}
+
+.grid-seven > div.element2 {
+    background-color: black;
+    /*CENTRADO EN AMBOS EJES*/
+}
+
+.grid-seven > div.element3 {
+    background-color: rebeccapurple;
+    /*ESQUINA INFERIOR IZQUIERDA*/
+}
+
+.grid-seven > div.element4 {
+    /* ESQUINA SUPERIOR IZQUIERDA */
+}
+
+.grid-seven > div.element5 {
+    /* ESQUINA INFERIOR IZQUIERDA */
+}
+
+.grid-seven > div.element6 {
+    /* ESQUINA CENTRO VERTICAL, ORILLA DERECHA */
+}
