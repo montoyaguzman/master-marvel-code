@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.bandera {
+  background-color: darkblue;
+  height: 30%;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.columna-izq {
+  background-color: darkgoldenrod;
+  height: 100%;
+  width: 30%;
+}
+
+.columna-der {
+  background-color: darkmagenta;
+  height: 100%;
+  width: 60%;
+}
