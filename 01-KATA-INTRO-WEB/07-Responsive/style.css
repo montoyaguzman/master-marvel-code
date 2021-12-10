@@ -72,3 +72,45 @@ html, body {
   height: 85%;
   width: 93.5%;
 }
+
+/* Media Queries */
+@media only screen and (min-width: 400px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .bandera {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: rgb(150, 173, 95);
+  }
+
+  .bandera {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: bisque;
+  }
+
+  .bandera {
+    width: 40%;
+  }
+}
+
+
+@media only screen and (min-width: 1500px) {
+  body {
+    background-color: rgb(196, 251, 255);
+  }
+
+  .bandera {
+    width: 25%;
+  }
+}
