@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}
+  
+:root {
+    --main-color: #b8001f;
+    --second-color: #00139f;
+    --text-light: #ffffff;
+}
+
+.grid {
+    background-color: pink;
+}
+
+.grid > div {
+    background-color: var(--second-color);
+    color: white;
+}
+  
