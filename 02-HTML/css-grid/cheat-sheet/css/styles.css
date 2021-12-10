@@ -107,7 +107,7 @@ body {
     color: white;
 }
 
-.grid-seven > div:hover {
+.grid-seven > div[class^="element"]:hover {
     background-color: darksalmon;
 }
 
