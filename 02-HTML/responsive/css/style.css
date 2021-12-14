@@ -1,0 +1,150 @@
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+
+.header-evolution {
+  width: 100%;
+}
+
+@media only screen and (max-width: 320px) {
+  .evolution {
+    width: 100%;
+    min-height: 50vh;
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  h1 {
+    font-size: 0.8rem;
+  }
+  h1::after {
+    content: "😒";
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .evolution {
+    width: 100%;
+    min-height: 50vh;
+    background-image: url("../img/2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  body {
+    background-color: aquamarine;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h1::after {
+    content: "😃";
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .evolution {
+    width: 100%;
+    min-height: 50vh;
+    background-image: url("../img/3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  body {
+    background-color: yellowgreen;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h1::after {
+    content: "😁";
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .evolution {
+    width: 100%;
+    min-height: 50vh;
+    background-image: url("../img/4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  body {
+    background-color: rebeccapurple;
+  }
+  h1 {
+    font-size: 2.8rem;
+  }
+  h1::after {
+    content: "😨";
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .evolution {
+    width: 100%;
+    min-height: 50vh;
+    background-image: url("../img/5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  body {
+    background-color: tan;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h1::after {
+    content: "😍";
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .evolution {
+    width: 100%;
+    min-height: 50vh;
+    background-image: url("../img/6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  body {
+    background-color: thistle;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h1::after {
+    content: "😈";
+  }
+}
+
+.padre {
+  border: 1px solid #000;
+  display: inline-block;
+  width: 50vw;
+}
+/* .padre.uno {
+  font-size: 20px;
+}
+.padre.dos {
+  font-size: 30px;
+}
+.hijo {
+  border: 1px solid red;
+  display: inline-block;
+  width: 50%;
+}
+.hijo.uno {
+  font-size: 1.5em;
+}
+.hijo.dos {
+  font-size: 0.75em;
+} */
