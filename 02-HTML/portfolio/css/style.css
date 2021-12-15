@@ -25,9 +25,12 @@ h2 {
   margin-top: unset;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav-link {
-  display: inline;
-  float: right;
   height: 36px;
 }
 
@@ -221,24 +224,21 @@ h2 {
   font-weight: 600;
 }
 
-.row {
-  display: inline;
+.footer__container {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* .row div,
 .row div p,
 .row div ul,
 .row div ul li */
-.row * {
+.footer__container * {
   display: inline;
 }
 
-.row div ul {
+.footer__container div ul {
   margin: 0px;
-}
-
-.float-right {
-  float: right;
 }
 
 .icon-list {
@@ -337,4 +337,50 @@ h2 {
 .w-50 {
   width: 50%;
   margin: auto;
+}
+
+@media only screen and (max-width: 425px) {
+  .habilities,
+  .projects {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  .hability-card {
+    margin-bottom: 20px;
+  }
+  .nav-link {
+    display: flex;
+    justify-content: end;
+  }
+  .avatar-header {
+    display: none;
+  }
+  #header__home {
+    grid-template-columns: 1fr;
+  }
+  .header-detail {
+    padding: 30px 0px;
+  }
+  .title-header {
+    margin-bottom: 30px;
+  }
+  .section-design__center.w-50 {
+    width: 100%;
+  }
+  #contact-form {
+    width: 100%;
+  }
+  .footer__container {
+    flex-direction: column;
+  }
+  .footer__container div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+  .footer__container div ul {
+    margin-top: 20px;
+    padding: 0;
+  }
 }
