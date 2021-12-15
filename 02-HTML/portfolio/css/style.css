@@ -143,11 +143,9 @@ h2 {
 
 .habilities,
 .projects {
-  display: inline-flex;
-}
-
-.hability-card {
-  margin-right: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
 }
 
 .habilty-icon {
