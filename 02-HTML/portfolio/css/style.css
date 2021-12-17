@@ -241,13 +241,14 @@ nav {
   margin: 0px;
 }
 
-.icon-list {
-  filter: grayscale(100%);
+.icon-list a {
+  color: #728197;
   transition: all 0.15s ease-out;
+  font-size: 25px;
 }
 
-.icon-list:hover {
-  filter: grayscale(0%);
+.icon-list a:hover {
+  color: #5a6fd8;
 }
 
 /* .icon-list li:first-child,
