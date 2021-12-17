@@ -385,3 +385,36 @@ nav {
     padding: 0;
   }
 }
+
+.search-container {
+  margin: 20px;
+  font-size: 16px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid #bfbfbf;
+  border-radius: 10px;
+  background-color: #c9c9c9;
+}
+.search-container > i::before {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 10px 0px 10px 10px;
+  font-size: 20px;
+}
+.search-container > i.hidden {
+  display: none;
+}
+
+.find {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 100%;
+  background-color: #c9c9c9;
+}
+
+.find::placeholder {
+  color: #5b687b;
+}

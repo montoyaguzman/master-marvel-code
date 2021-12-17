@@ -13,11 +13,28 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <title>My Project 1 - Víctor M. Reyes</title>
 </head>
 
 <body>
-  <h1>My Project 1</h1>
+  <div class="search-container">
+    <i class='bx bx-search'></i>
+    <input class="find" type="text" placeholder="Buscar">
+  </div>
+
+  <script>
+    let icon = document.querySelector('.search-container i')
+    let input = document.querySelector('.find')
+
+    input.addEventListener('focus', () => {
+      icon.classList.add('hidden')
+    })
+
+    input.addEventListener('blur', () => {
+      icon.classList.remove('hidden')
+    })
+  </script>
 </body>
 
 </html>
